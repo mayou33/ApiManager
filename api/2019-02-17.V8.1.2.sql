@@ -577,7 +577,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES ('155041470423906000003','testUser','4be53ec042adef08cdeeac6b971e9cb0','测试用户','','','','','2019-02-17 00:45:04',1,1550414704239,1,'testUser@crap.cn','resources/avatar/avatar4.jpg',0,NULL,'37BCNeGggtIiaksB6w4k'),('admin','admin','5c5ab77d908c2a3be8674ac6f5c48d50','超级管理员','super,','超级管理员,',',SUPER,,,','','2016-03-29 04:24:00',1,0,100,'ihsantang@163.com','',0,'','stnci97PqJeu4P18pqyn');
+INSERT INTO `user` VALUES ('155041470423906000003','testUser','4be53ec042adef08cdeeac6b971e9cb0','测试用户','','','','','2019-02-17 00:45:04',1,1550414704239,1,'testUser@crap.cn','resources/avatar/avatar4.jpg',0,NULL,'37BCNeGggtIiaksB6w4k'),('155041470423906000004','admin','5c5ab77d908c2a3be8674ac6f5c48d50','超级管理员','super,','超级管理员,',',SUPER,,,','','2016-03-29 04:24:00',1,0,100,'ihsantang@163.com','',0,'','stnci97PqJeu4P18pqyn');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 
